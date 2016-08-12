@@ -23,6 +23,7 @@ wp-t630打印机驱动演示，需要准备以下条件：
 1. 装好热敏纸，启动打印机，使其处于待机状态
 2. 运行ListBluToothDevice类，直到输出类似如下列表内容：
 
+
     BlueCove version 2.1.1-SNAPSHOT on winsock
     Address: 98D331B0723D
        Name: WP-T630
