@@ -1,0 +1,4 @@
+include 'pos-printer-driver-api','pos-printer-driver-wp-t630'
+
+project(':pos-printer-driver-api').projectDir = new File(settingsDir, '../pos-printer-driver-api')
+project(':pos-printer-driver-wp-t630').projectDir = new File(settingsDir, '../pos-printer-driver-wp-t630')

@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(':pos-printer-driver-api')
+    compile project(':pos-printer-driver-wp-t630')
+}
+
+sourceSets {
+    main.java.srcDirs = ['src']
+    main.resources.srcDirs = ['conf']
+    test.java.srcDirs = ['test']
+}
