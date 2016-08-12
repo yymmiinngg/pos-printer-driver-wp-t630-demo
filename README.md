@@ -1,15 +1,11 @@
 # pos-printer-driver-wp-t630-demo
-wp-t630打印机驱动演示
-
-#快速开始
-
-需要准备以下条件：
+wp-t630打印机驱动演示，需要准备以下条件：
 
 * 需要支持gradle的编译环境
 * 需要蓝牙连接设备，如usb蓝牙适配器
 * 需要wp-t630蓝牙热敏打印机
 
-##Step1
+#Step1
 
 准备代码
 
@@ -22,10 +18,10 @@ wp-t630打印机驱动演示
     #当前项目
     git clone git@github.com:yymmiinngg/pos-printer-driver-wp-t630-demo.git
 
-##Step2
+#Step2
 
-1.装好热敏纸，启动打印机，使其处于待机状态
-2.运行ListBluToothDevice类，直到输出类似如下列表内容：
+1. 装好热敏纸，启动打印机，使其处于待机状态
+2. 运行ListBluToothDevice类，直到输出类似如下列表内容：
 
     BlueCove version 2.1.1-SNAPSHOT on winsock
     Address: 98D331B0723D
@@ -39,7 +35,7 @@ wp-t630打印机驱动演示
 
 >其中98D331B0723D是WP-T630的蓝牙地址。
 
-##Step3
+#Step3
 
 更改PrintDemo类中的关键代码
 
@@ -50,6 +46,6 @@ wp-t630打印机驱动演示
 
 >把98D331B0723D改成你的打印机的地址。
 
-##Step4
+#Step4
 
 运行PrintDemo类。
