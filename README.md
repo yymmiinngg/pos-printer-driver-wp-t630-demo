@@ -18,6 +18,10 @@ wp-t630打印机驱动演示，需要准备以下条件：
     #当前项目
     git clone git@github.com:yymmiinngg/pos-printer-driver-wp-t630-demo.git
 
+>[pos-printer-driver-api](https://github.com/yymmiinngg/pos-printer-driver-api)是驱动规范接口
+
+>[pos-printer-driver-wp-t630](https://github.com/yymmiinngg/pos-printer-driver-wp-t630)是驱动实现
+
 #Step2
 
 1. 装好热敏纸，启动打印机，使其处于待机状态
